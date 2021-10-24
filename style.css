@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+.header{
+    background: url(./Image/zvezdy-4k-ultra-hd-1920x1080.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.box_header1{
+    width: 80%;
+    height: 100px;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white  ;
+    flex-wrap: wrap;
+}
+.logo h2{
+color: white;
+font-size: 45px;
+font-family: 'Dancing Script', cursive;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    margin-right: 20px;
+    transition: all 1s;
+}
+.box_header2{
+    width: 100%;
+    height: 85.7%;
+    text-align: center;
+    padding: 100px 0;
+}
+.box_text_header h1{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 100px;
+}
+.box_text_header p{
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.knopka{
+    height: 30%;
+    margin-top: 80px;
+    width: 100%;
+}
+.knopka a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(22, 43, 136);
+    padding: 20px 80px;
+    background: linear-gradient(rgba(68, 0, 255, 0.5),rgba(238, 130, 238, 0.5));
+    /* opacity: 0.7; */
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.menu a:hover{
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+.knopka a:hover{
+    background:linear-gradient(rgba(68, 0, 255, 0.5),rgba(255, 255, 255, 0.466));
+ color: purple;
+    -webkit-box-shadow: 6px -2px 15px 3px rgba(74, 0, 248, 0.92); 
+box-shadow: 6px -2px 15px 3px rgba(106, 3, 241, 0.92);
+}
+.content{
+    padding: 25px 0;
+max-width: 1200px;
+    /* height: 540px; */
+    width: 100%;
+    background-color: white;
+}
+.mather1{
+width: 80%;
+/* height: 100px; */
+    text-align: center;
+    /* padding: 100px 0; */
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+.mather1 h2{
+    margin: 15px 0;
+
+}
+.mather1 p{
+    margin: 15px 0;
+}
+.box_p{
+    margin: 25px auto;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+}
+.mather2{
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    /* align-items: center; */
+    margin: 30px 0;
+    justify-content: center;
+    /* text-align: center; */
+    flex-wrap: wrap;
+}
+.conteiner{
+    width: 350px;
+    /* height: 90%; */
+    /* padding: 10px 0; */
+    /* margin: 0; */
+}
+.logo_text{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid black;
+    text-align: center;
+    transition: all 0.5s;
+}
+.text_p{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+}
+.fa-font{
+    margin-top: 27px;
+    font-size: 40px;
+    color: rgb(255, 1, 1);
+}
+.logo_text:hover{
+    background-color: rgba(252, 0, 0, 0.678) ;
+}
+.logo_text:hover .fa-font{
+    color: white;
+}
+.fa-link{
+    margin-top: 27px;
+    font-size: 40px;
+    color: rgb(255, 1, 1);
+}
+.logo_text:hover .fa-link{
+    color: white;
+}
+.fa-life-ring{
+    margin-top: 27px;
+    font-size: 40px;
+    color: rgb(255, 1, 1);
+}
+.logo_text:hover .fa-life-ring{
+    color: white;
+}
+.text_p p{
+    font-family: 'Cabin', sans-serif;
+}
+.text_h3{
+    /* height: 35px; */
+    width: 100%;
+    text-align: center;
+}
+.text_h3 h3{
+    margin-top: 20px;
+    font-family: 'Varela Round', sans-serif;
+    color: grey;
+}
+.footer{
+    /* margin-top: 40px; */
+    height: 250px;
+    width: 100%;
+    background-color: rgb(235, 75, 75);
+    /* padding: 60px 0; */
+}
+.contact{
+    height: 180px;
+    width: 50%;
+    /* background-color: orchid; */
+    display: flex;
+    align-items: center;
+    /* padding-left: 788px; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact_4{
+    margin:0px;
+    height: 33px;
+    width: 33px;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 2px solid whitesmoke;
+}
+.fa-instagram{
+    color: white;
+    margin-left: 8px;
+    margin-top: 6px;
+    height: 80%;
+    width: 80%;
+}
+.contact_4 a{
+    width: 100%;
+    height: 60px
+}
+.contact_4:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.contact_4:hover .fa-instagram{
+    color: rgb(233, 139, 16); 
+}
+.fa-telegram-plane{
+    color: white;
+    margin-left: 6px;
+    margin-top: 6px;
+    height: 80%;
+    width: 80%;
+}
+.contact_4:hover .fa-telegram-plane{
+    color: rgb(233, 139, 16); 
+}
+.fa-vk{
+    color: white;
+    margin-left: 6px;
+    margin-top: 6px;
+    height: 80%;
+    width: 80%;
+}
+.contact_4:hover .fa-vk{
+    color: rgb(233, 139, 16); 
+}
+.fa-twitch{
+    color: white;
+    margin-left: 7px;
+    margin-top: 6px;
+    height: 80%;
+    width: 80%; 
+}
+.contact_4:hover .fa-twitch{
+    color: rgb(233, 139, 16); 
+}
+.text_end{
+    /* height: 60px; */
+    width: 100%;
+    /* background-color: white; */
+    text-align: center;
+}
+.front{
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
